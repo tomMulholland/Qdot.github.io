@@ -1,2 +1,3 @@
-# Qdot.github.io
-Qdot Additive LLC webpage
+# qdotadditive.com
+An additive, thermofluid, theromechanical company.
+
