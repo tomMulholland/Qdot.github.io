@@ -22,7 +22,12 @@
               <i class="fa fa-linkedin fa-2x"></i>
             </a>
 
-			
+			<div class="row">
+		<div class="column">
+		</div>
+		<div class="column">
+		</div>
+	</div>
 			
 
       <div class="row projects whitesmoke" id="projects">
@@ -30,13 +35,7 @@
           <h1 class="categoryTitle">Projects</h1>
         </div>
 		
-		<div class="row">
-		<div class="column">
-			<div class=
-		</div>
-		<div class="column">
-		</div>
-	</div>
+		
 
         <div class="col-xs-12 project whitesmoke rockd-mobile">
           <div class="projectContainer">
