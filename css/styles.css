@@ -21,7 +21,7 @@ body {
   width:100%;
   height:95%;
   text-align: center;
-  background-color:#B7C11E;
+  background-color:#8D1A14;
   display: table;
 }
 .titleContent {
@@ -46,7 +46,7 @@ body {
   position: absolute;
   height: 30px;
   width: 30px;
-  background-color: #B7C11E;
+  background-color: #400603;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -57,28 +57,28 @@ body {
   z-index: 2;
 }
 .toc-row {
-  margin-top: 41px;
+  margin-top: 24px;
 }
 .toc {
   text-align: center;
   padding:20px;
   margin-top:-40px;
-  background-color: #ffffff;
-  color:#bbb;
+  background-color: #909A25;
+  color:#F5F5F5;
 }
 .toc:hover {
-  color: #23A38F;
+  color: #04305A;
   cursor: pointer;
 }
 .toc > a {
-  color: #bbb;
+  color: #F5F5F5;
 }
 .toc > a:hover {
-  color: #23A38F;
+  color: #04305A;
   text-decoration: none;
 }
 .category {
-  height: 315px;
+  height: 100px;
   display: table;
 }
 .categoryTitle  {
@@ -92,16 +92,16 @@ body {
   color: #F5F5F5;
 }
 .projects {
-  background-color: #589494;
+  background-color: #147AD9;
 }
 .project {
-  background-color: rgb(88, 148, 148);
-  background-color: rgba(88, 148, 148, 0.8);
+  background-color: rgb(20, 122, 217);
+  background-color: rgba(20, 122, 217, 0.8);
   background-repeat: repeat-x;
 }
 .projectContainer {
-  background-color: rgb(88, 148, 148);
-  background-color: rgba(88, 148, 148, 0.7);
+  background-color: rgb(20, 122, 217);
+  background-color: rgba(20, 122, 217, 0.6);
   padding: 60px;
   margin-left: -15px;
   margin-right: -15px;
@@ -197,310 +197,34 @@ body {
   .projectContainer {
     padding: 60px;
   }
+  .polyHXpic {
+	background-image:url('/img/high/hx_airfoil.png');;
+  }
   .rockd-mobile {
     background-image:url('/img/high/rockd-mobile.jpg');;
   }
-  .rockd-web {
-    background-image:url('/img/high/rockd-web.jpg');;
-  }
-  .rockd-site {
-    background-image:url('/img/high/rockd-site.jpg');;
-  }
-  .geodeepdive {
-    background-image:url('/img/high/geodeepdive.org.jpg');;
-  }
-  .macrostrat_home {
-    background-image:url('/img/high/macrostrat_home.jpg');;
-  }
-  .sift {
-    background-image:url('/img/high/sift.jpg');;
-  }
-  .gmna {
-    background-image:url('/img/high/gmna.jpg');;
-  }
-  .macrostrat-api {
-    background-image:url('/img/high/macrostrat_api.jpg');;
-  }
-  .busmsn {
-    background-image:url('/img/high/busmsn.jpg');;
-  }
-  .navigator {
-    background-image: url('/img/high/navigator.jpg');
-  }
-  .team_usa_sochi {
-    background-image: url('/img/high/team_usa_sochi.jpg');
-  }
-  .macrostrat_map {
-    background-image:url('/img/high/macrostrat.jpg');
-  }
-  .paleobiodb {
-    background-image:url('/img/high/paleobiodb.jpg');
-  }
-  .pioneer {
-    background-image:url('/img/high/pioneer.jpg');
-  }
-  .acmp {
-    background-image:url('/img/high/acmp.jpg');
-  }
-  .michigan_basin {
-    background-image:url('/img/high/michigan_basin.jpg');
-  }
-  .webmap_template_eia {
-    background-image:url('/img/high/webmap_template_eia.jpg');
-  }
-  .webmap_template_corridors {
-    background-image:url('/img/high/webmap_template_corridors.jpg');
-  }
-  .ecycle {
-    background-image:url('/img/high/ecycle.jpg');
-  }
-  .subway {
-    background-image:url('/img/high/subway.jpg');
-  }
-  .pronounce {
-    background-image:url('/img/high/pronounce.jpg');
-  }
-  .dlccc {
-    background-image:url('/img/high/dlccc.jpg');
-  }
-  .frac_sands {
-    background-image:url('/img/high/frac_sands.jpg');
-  }
-  .policy {
-    background-image:url('/img/high/policy.jpg');
-  }
-  .renewable {
-    background-image:url('/img/high/renewable.jpg');
-  }
-  .team_usa_london {
-    background-image:url('/img/high/team_usa_london.jpg');
-  }
-  .cashfree {
-    background-image:url('/img/high/cashfree.jpg');
-  }
-  .federal_spending {
-    background-image:url('/img/high/federal_spending.jpg');
-  }
-  .hoofermountaineering {
-    background-image:url('/img/high/hoofermountaineering.jpg');
-  }
-  .jmt {
-    background-image:url('/img/high/jmt.jpg');
-  }
-  .dl_bouldering {
-    background-image:url('/img/high/dl_bouldering.jpg');
-  }
-  .europe {
-    background-image:url('/img/high/europe.jpg');
-  }
-  .obesity {
-    background-image:url('/img/high/obesity.jpg');
-  }
+  
 }
 @media(max-width: 1450px) {
+  .polyHXpic {
+	background-image:url('/img/high/hx_airfoil.png');;
+  }
   .rockd-mobile {
     background-image:url('/img/medium/rockd-mobile.jpg');;
   }
-  .rockd-web {
-    background-image:url('/img/medium/rockd-web.jpg');;
-  }
-  .rockd-site {
-    background-image:url('/img/medium/rockd-site.jpg');;
-  }
-  .geodeepdive {
-    background-image:url('/img/medium/geodeepdive.org.jpg');;
-  }
-  .macrostrat_home {
-    background-image:url('/img/high/macrostrat_home.jpg');;
-  }
-  .sift {
-    background-image:url('/img/high/sift.jpg');;
-  }
-  .gmna {
-    background-image:url('/img/medium/gmna.jpg');;
-  }
-  .macrostrat-api {
-    background-image:url('/img/medium/macrostrat_api.jpg');;
-  }
-  .busmsn {
-    background-image:url('/img/medium/busmsn.jpg');;
-  }
-  .navigator {
-    background-image: url('/img/medium/navigator.jpg');
-  }
-  .team_usa_sochi {
-    background-image: url('/img/medium/team_usa_sochi.jpg');
-  }
-  .macrostrat_map {
-    background-image:url('/img/medium/macrostrat.jpg');
-  }
-  .paleobiodb {
-    background-image:url('/img/medium/paleobiodb.jpg');
-  }
-  .pioneer {
-    background-image:url('/img/medium/pioneer.jpg');
-  }
-  .acmp {
-    background-image:url('/img/medium/acmp.jpg');
-  }
-  .michigan_basin {
-    background-image:url('/img/medium/michigan_basin.jpg');
-  }
-  .webmap_template_eia {
-    background-image:url('/img/medium/webmap_template_eia.jpg');
-  }
-  .webmap_template_corridors {
-    background-image:url('/img/medium/webmap_template_corridors.jpg');
-  }
-  .ecycle {
-    background-image:url('/img/medium/ecycle.jpg');
-  }
-  .subway {
-    background-image:url('/img/medium/subway.jpg');
-  }
-  .pronounce {
-    background-image:url('/img/medium/pronounce.jpg');
-  }
-  .dlccc {
-    background-image:url('/img/medium/dlccc.jpg');
-  }
-  .frac_sands {
-    background-image:url('/img/medium/frac_sands.jpg');
-  }
-  .policy {
-    background-image:url('/img/medium/policy.jpg');
-  }
-  .renewable {
-    background-image:url('/img/medium/renewable.jpg');
-  }
-  .team_usa_london {
-    background-image:url('/img/medium/team_usa_london.jpg');
-  }
-  .cashfree {
-    background-image:url('/img/medium/cashfree.jpg');
-  }
-  .federal_spending {
-    background-image:url('/img/medium/federal_spending.jpg');
-  }
-  .hoofermountaineering {
-    background-image:url('/img/medium/hoofermountaineering.jpg');
-  }
-  .jmt {
-    background-image:url('/img/medium/jmt.jpg');
-  }
-  .dl_bouldering {
-    background-image:url('/img/medium/dl_bouldering.jpg');
-  }
-  .europe {
-    background-image:url('/img/medium/europe.jpg');
-  }
-  .obesity {
-    background-image:url('/img/medium/obesity.jpg');
-  }
+  
 }
 @media(max-width: 900px) {
   .projectContainer {
     padding: 14px 25px;
   }
+  .polyHXpic {
+	background-image:url('/img/high/hx_airfoil.png');;
+  }
   .rockd-mobile {
     background-image:url('/img/low/rockd-mobile.jpg');;
   }
-  .rockd-web {
-    background-image:url('/img/low/rockd-web.jpg');;
-  }
-  .rockd-site {
-    background-image:url('/img/low/rockd-site.jpg');;
-  }
-  .geodeepdive {
-    background-image:url('/img/low/geodeepdive.org.jpg');;
-  }
-  .macrostrat_home {
-    background-image:url('/img/low/macrostrat_home.jpg');;
-  }
-  .sift {
-    background-image:url('/img/low/sift.jpg');;
-  }
-  .gmna {
-    background-image:url('/img/low/gmna.jpg');;
-  }
-  .macrostrat-api {
-    background-image:url('/img/low/macrostrat_api.jpg');;
-  }
-  .busmsn {
-    background-image:url('/img/low/busmsn.jpg');;
-  }
-  .navigator {
-    background-image: url('/img/low/navigator.jpg');
-  }
-  .team_usa_sochi {
-    background-image: url('/img/low/team_usa_sochi.jpg');
-  }
-  .macrostrat_map {
-    background-image:url('/img/low/macrostrat.jpg');
-  }
-  .paleobiodb {
-    background-image:url('/img/low/paleobiodb.jpg');
-  }
-  .pioneer {
-    background-image:url('/img/low/pioneer.jpg');
-  }
-  .acmp {
-    background-image:url('/img/low/acmp.jpg');
-  }
-  .michigan_basin {
-    background-image:url('/img/low/michigan_basin.jpg');
-  }
-  .webmap_template_eia {
-    background-image:url('/img/low/webmap_template_eia.jpg');
-  }
-  .webmap_template_corridors {
-    background-image:url('/img/low/webmap_template_corridors.jpg');
-  }
-  .ecycle {
-    background-image:url('/img/low/ecycle.jpg');
-  }
-  .subway {
-    background-image:url('/img/low/subway.jpg');
-  }
-  .pronounce {
-    background-image:url('/img/low/pronounce.jpg');
-  }
-  .dlccc {
-    background-image:url('/img/low/dlccc.jpg');
-  }
-  .frac_sands {
-    background-image:url('/img/low/frac_sands.jpg');
-  }
-  .policy {
-    background-image:url('/img/low/policy.jpg');
-  }
-  .renewable {
-    background-image:url('/img/low/renewable.jpg');
-  }
-  .team_usa_london {
-    background-image:url('/img/low/team_usa_london.jpg');
-  }
-  .cashfree {
-    background-image:url('/img/low/cashfree.jpg');
-  }
-  .federal_spending {
-    background-image:url('/img/low/federal_spending.jpg');
-  }
-  .hoofermountaineering {
-    background-image:url('/img/low/hoofermountaineering.jpg');
-  }
-  .jmt {
-    background-image:url('/img/low/jmt.jpg');
-  }
-  .dl_bouldering {
-    background-image:url('/img/low/dl_bouldering.jpg');
-  }
-  .europe {
-    background-image:url('/img/low/europe.jpg');
-  }
-  .obesity {
-    background-image:url('/img/low/obesity.jpg');
-  }
+  
 }
 @media(max-width: 675px) {
   .toc-title {
