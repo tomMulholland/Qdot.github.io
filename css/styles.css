@@ -57,7 +57,7 @@ body {
   z-index: 2;
 }
 .toc-row {
-  margin-top: 24px;
+  margin-top: 0px;
 }
 .toc {
   text-align: center;
