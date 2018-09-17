@@ -97,7 +97,8 @@ body {
 .project {
   background-color: rgb(20, 122, 217);
   background-color: rgba(20, 122, 217, 0.8);
-  background-repeat: repeat-x;
+  background-repeat: no-repeat;
+  object-fit: contain;
 }
 .projectContainer {
   background-color: rgb(20, 122, 217);
