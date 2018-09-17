@@ -103,9 +103,10 @@ body {
   background-color: rgb(20, 122, 217);
   background-color: rgba(20, 122, 217, 0.6);
   padding: 60px;
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
+
 .projTitle > a {
   color: #F5F5F5;
 }
@@ -198,7 +199,7 @@ body {
     padding: 60px;
   }
   .polyHXpic {
-	background-image:url('/img/high/hx_airfoil.png');;
+	background-image:url('/img/high/hx_airfoil.jpg');;
   }
   .rockd-mobile {
     background-image:url('/img/high/rockd-mobile.jpg');;
@@ -207,7 +208,7 @@ body {
 }
 @media(max-width: 1450px) {
   .polyHXpic {
-	background-image:url('/img/high/hx_airfoil.png');;
+	background-image:url('/img/high/hx_airfoil.jpg');;
   }
   .rockd-mobile {
     background-image:url('/img/medium/rockd-mobile.jpg');;
@@ -219,7 +220,7 @@ body {
     padding: 14px 25px;
   }
   .polyHXpic {
-	background-image:url('/img/high/hx_airfoil.png');;
+	background-image:url('/img/high/hx_airfoil.jpg');;
   }
   .rockd-mobile {
     background-image:url('/img/low/rockd-mobile.jpg');;
