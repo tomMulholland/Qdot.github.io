@@ -2,7 +2,7 @@ html, body, .container-fluid {
     height: 102%;
     position: relative;
   }
-body {
+.body {
   padding-top:0;
   padding-bottom: 40px;
 }
@@ -57,7 +57,7 @@ body {
   z-index: 2;
 }
 .toc-row {
-  margin-top: 0px;
+  margin-top: 21px;
 }
 .toc {
   text-align: center;
