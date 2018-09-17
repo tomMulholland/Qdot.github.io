@@ -200,6 +200,7 @@ body {
   }
   .polyHXpic {
 	background-image:url('/img/high/hx_airfoil.png');;
+	  object-fit: cover;
   }
   .rockd-mobile {
     background-image:url('/img/high/rockd-mobile.jpg');;
@@ -209,6 +210,7 @@ body {
 @media(max-width: 1450px) {
   .polyHXpic {
 	background-image:url('/img/high/hx_airfoil.png');;
+	  object-fit: cover;
   }
   .rockd-mobile {
     background-image:url('/img/medium/rockd-mobile.jpg');;
@@ -221,6 +223,7 @@ body {
   }
   .polyHXpic {
 	background-image:url('/img/high/hx_airfoil.png');;
+	  object-fit: cover;
   }
   .rockd-mobile {
     background-image:url('/img/low/rockd-mobile.jpg');;
