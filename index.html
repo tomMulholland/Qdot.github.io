@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo"/>
     <link rel="stylesheet" href="css/styles.css"/>
+	  
+	<script src="https://www.google.com/recaptcha/api.js"></script>
+	  
   </head>
 
   <body>
@@ -95,7 +98,24 @@
       </div>
 	</div>
   </div>
-</div>		
+
+	<div class="project whitesmoke">
+	  <div class="col-xs-12 footer">		
+		  <form action="mailto:qdotadditive@gmail.com" method="post" enctype="text/plain" >
+			Your Full Name:<input type="text" name="FullName">
+			Email:<input type="text" name="Email">
+			<button
+			class="g-recaptcha"
+			data-sitekey="6Le4t3AUAAAAAKghikmxSoTS1b8MjUlEJFPsW4Z3"
+			data-callback="displayEmail">Get Address</form>
+			</button>
+				<p>This site is protected by reCAPTCHA and is subject to the
+				<a href="https://www.google.com/intl/en/policies/privacy/" target="_blank">Google Privacy Policy</a> and
+				<a href="https://www.google.com/intl/en/policies/terms/" target="_blank">Terms of Use.</a> We use this to avoid spam bots.</p>
+
+		</div>
+	</div>
+  </div>
 </body>
 </html>
 

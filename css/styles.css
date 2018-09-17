@@ -119,6 +119,12 @@ html, body, .container-fluid {
 .poster {
   color: #333;
 }
+.footer {
+  background-color: #04305A;
+  padding: 60px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
 .no-list {
   list-style: none;
 }
