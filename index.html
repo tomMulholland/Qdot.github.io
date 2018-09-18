@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/styles.css"/>
 	  
 	<script src="https://www.google.com/recaptcha/api.js"></script>
+	<script src="displayEmail.js"></script>
 	  
   </head>
 
@@ -55,7 +56,9 @@
 	  </div>
 	
 	<div class="row project whitesmoke" id="pastwork">
-		<div class="col-xs-6 projectContainer polyHXpic"></div>
+		<div class="col-xs-6 projectContainer">
+		  	<img src="./img/high/hx_airfoil.PNG" style="width: 100%;">
+		</div>
 		<div class="col-xs-6 projectContainer">			  
             <h2 class="projTitle"><a>Polymer Composite Air-to-Water Heat Exchanger</a></h2>
             <p>Qdot Additive designed a low pressure drop air-to-water heat exchanger for HVAC applications. It is manufactured by fused filament fabrication using a thermally conductive polymer composite also developed in-house.</p>
@@ -66,8 +69,9 @@
             <h2 class="projTitle"><a>Stainless Steel Air-to-Water Heat Exchanger</a></h2>
             <p>Qdot Additive designed a low pressure drop air-to-water heat exchanger for HVAC applications. It is manufactured by the direct metal laser sintering (DMLS) process using stainless steel 316L.</p>
           </div>
-		  <div class="col-xs-6 projectContainer polyHXpic">
-			</div>
+		  <div class="col-xs-6 projectContainer">
+		  	<img src="./img/high/hx_airfoil.PNG" style="width: 100%;">
+		  </div>
 	    </div>
 
   		<div class="row project whitesmoke">
@@ -101,14 +105,10 @@
 
 	<div class="row project whitesmoke">
 	  <div class="col-xs-12 footer">		
-		  <form action="mailto:qdotadditive@gmail.com" method="post" enctype="text/plain" >
-			Your Full Name:<input type="text" name="FullName">
-			Email:<input type="text" name="Email">
 			<button
 			class="g-recaptcha"
 			data-sitekey="6Le4t3AUAAAAAKghikmxSoTS1b8MjUlEJFPsW4Z3"
-			onclick="getElementById('emailadd').innerHTML=displayEmail()">Get Address</form>
-			</button>
+			onclick="getElementById('emailadd').innerHTML=displayEmail()">Get Address</button>
 		  	<p id="emailadd"></p>
 		</div>
 	</div>
