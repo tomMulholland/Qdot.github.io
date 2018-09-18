@@ -59,6 +59,7 @@ html, body, .container-fluid {
 }
 .toc-row {
   margin-top: 21px;
+  background-color: #909A25;
 }
 .toc {
   text-align: center;
