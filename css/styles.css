@@ -60,7 +60,7 @@ html, body, .container-fluid {
   z-index: 2;
 }
 .toc-row {
-  margin-top: 0px;
+  margin-top: -20px;
   background-color: #909A25;
 }
 .toc {
