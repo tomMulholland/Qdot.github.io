@@ -108,6 +108,7 @@ html, body, .container-fluid {
   padding: 60px;
   margin-left: 0px;
   margin-right: 0px;
+  height: 50%;
 }
 
 .projTitle > a {
@@ -135,20 +136,14 @@ html, body, .container-fluid {
   .projectContainer {
     padding: 60px;
   }
-  .polyHXpic {
-	background-image:url('/img/high/hx_airfoil.png');;
-	  object-fit: cover;
-  }
+  
   .rockd-mobile {
     background-image:url('/img/high/rockd-mobile.jpg');;
   }
   
 }
 @media(max-width: 1450px) {
-  .polyHXpic {
-	background-image:url('/img/high/hx_airfoil.png');;
-	  object-fit: cover;
-  }
+ 
   .rockd-mobile {
     background-image:url('/img/medium/rockd-mobile.jpg');;
   }
@@ -158,10 +153,7 @@ html, body, .container-fluid {
   .projectContainer {
     padding: 14px 25px;
   }
-  .polyHXpic {
-	background-image:url('/img/high/hx_airfoil.png');;
-	  object-fit: cover;
-  }
+
   .rockd-mobile {
     background-image:url('/img/low/rockd-mobile.jpg');;
   }
