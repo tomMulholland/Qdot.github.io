@@ -108,7 +108,7 @@ html, body, .container-fluid {
   padding: 60px;
   margin-left: 0px;
   margin-right: 0px;
-  height: 50%;
+  vertical-align:top;
 }
 
 .projTitle > a {
