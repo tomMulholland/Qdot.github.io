@@ -16,7 +16,9 @@ html, body, .container-fluid {
 }
 .titleRow {
   height: 100%;
-  background-color: #909A25;
+  background-color: #400603;
+  padding-bottom: 0px;
+  margin-bottom: -20px;
 }
 .titleHolder {
   width:100%;
@@ -58,13 +60,13 @@ html, body, .container-fluid {
   z-index: 2;
 }
 .toc-row {
-  margin-top: 21px;
+  margin-top: 0px;
   background-color: #909A25;
 }
 .toc {
   text-align: center;
-  padding:20px;
-  margin-top:-40px;
+  padding:0px;
+  margin-top:0px;
   background-color: #909A25;
   color:#F5F5F5;
 }
