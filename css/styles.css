@@ -82,6 +82,7 @@ html, body, .container-fluid {
 .category {
   height: 100px;
   display: table;
+  background-color:#147AD9;
 }
 .categoryTitle  {
   padding: 30px 20px;
@@ -97,18 +98,24 @@ html, body, .container-fluid {
   background-color: #147AD9;
 }
 .project {
-  background-color: rgb(20, 122, 217);
-  background-color: rgba(20, 122, 217, 0.8);
+  background-color: #04305A;
   background-repeat: no-repeat;
   object-fit: contain;
 }
 .projectContainer {
-  background-color: rgb(20, 122, 217);
-  background-color: rgba(20, 122, 217, 0.6);
+  background-color: #04305A;
   padding: 60px;
   margin-left: 0px;
   margin-right: 0px;
   vertical-align:top;
+}
+.projectCell {
+  background-color: #04305A;
+  padding: 60px;
+  margin-left: 0px;
+  margin-right: 0px;
+  vertical-align:top;
+  height: 50% border-box;
 }
 
 .projTitle > a {
