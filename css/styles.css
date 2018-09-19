@@ -14,6 +14,15 @@ html, body, .container-fluid {
   margin-right:0;
   margin-left:0;
 }
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+  flex-grow:1;
+}
 .titleRow {
   height: 95%;
   background-color: #400603;
@@ -102,7 +111,6 @@ html, body, .container-fluid {
 .project {
   background-color: #04305A;
   background-repeat: no-repeat;
-  object-fit: contain;
 }
 .projectContainer {
   background-color: #04305A;
@@ -117,7 +125,18 @@ html, body, .container-fluid {
   margin-left: 0px;
   margin-right: 0px;
   vertical-align:top;
-  height: 50% border-box;
+}
+.imageCell {
+  background-color: #04305A;
+  padding: 60px;
+  margin-left: 0px;
+  margin-right: 0px;
+  vertical-align:top;
+  background-image: url('/img/high/hx_sharkfin_transparent.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 100%;
+  height: auto;
 }
 
 .projTitle > a {
@@ -126,6 +145,9 @@ html, body, .container-fluid {
 .projTitle > a:hover {
   color: #F5F5F5;
   text-decoration: none;
+}
+.steelHXpic{
+	src: url('/img/high/hx_sharkfin_transparent.png');;
 }
 
 .poster {
