@@ -70,13 +70,13 @@ html, body, .container-fluid {
 }
 .toc-row {
   margin-top: 0px;
-  background-color: #909A25;
+  background-color: #86338D;
 }
 .toc {
   text-align: center;
   padding:20px;
   margin-top:0px;
-  background-color: #909A25;
+  background-color: #86338D;
   color:#F5F5F5;
 }
 .toc:hover {

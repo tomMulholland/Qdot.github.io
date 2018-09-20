@@ -1,7 +1,7 @@
 #color theme
 Principal:
 Red
-141 46 20
+141 26 20
 8D1A14
 
 Dark Red:
@@ -19,6 +19,10 @@ Dark Blue
 Light Blue
 20 122 217
 147AD9
+
+Purple
+134 51 141
+86338D
 
 https://color.adobe.com/create/color-wheel
 TRIAD Theme
