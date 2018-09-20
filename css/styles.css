@@ -24,7 +24,7 @@ html, body, .container-fluid {
   flex-grow:1;
 }
 .titleRow {
-  height: 95%;
+  height: 95vh;
   background-color: #400603;
   padding-bottom: 0px;
   margin-bottom: 0px;
