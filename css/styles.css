@@ -146,6 +146,14 @@ html, body, .container-fluid {
   color: #F5F5F5;
   text-decoration: none;
 }
+.projDescr > a {
+  color: #F5F5F5;
+  font-size: 1.2em;
+}
+.projDescr > a:hover {
+  color: #F5F5F5;
+  text-decoration: none;
+}
 .steelHXpic{
 	src: url('/img/high/hx_sharkfin_transparent.png');;
 }
@@ -171,13 +179,14 @@ html, body, .container-fluid {
   .rockd-mobile {
     background-image:url('/img/high/rockd-mobile.jpg');;
   }
-  
+
 }
 @media(max-width: 1450px) {
  
   .rockd-mobile {
     background-image:url('/img/medium/rockd-mobile.jpg');;
   }
+
   
 }
 @media(max-width: 900px) {
@@ -188,7 +197,7 @@ html, body, .container-fluid {
   .rockd-mobile {
     background-image:url('/img/low/rockd-mobile.jpg');;
   }
-  
+
 }
 @media(max-width: 675px) {
   .toc-title {
@@ -201,12 +210,19 @@ html, body, .container-fluid {
   .resume-title > a {
     display: none;
   }
+  .projDescr > a{
+	font-size: 1em;
+	}
+
 }
 @media(max-width: 505px) {
   .categoryTitle {
     font-size: 22px;
     padding: 30px 0;
   }
+	.projDescr > a{
+	font-size: 1em;
+	}
 }
 @media(max-width: 475px) {
   .toc {
@@ -221,6 +237,9 @@ html, body, .container-fluid {
   .projectContainer {
     padding: 9px 25px;
   }
+	.projDescr > a{
+	font-size: 1em;
+	}
   .me {
     font-size: 3em;
   }
