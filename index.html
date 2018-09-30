@@ -33,7 +33,7 @@
 var modal = document.getElementById('myModal');
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('perf-graph');
+var img = document.getElementById("perf-graph");
 var modalImg = document.getElementById("perf-graph-wht");
 var captionText = document.getElementById("caption");
 img.onclick = function(){
@@ -101,7 +101,7 @@ span.onclick = function() {
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6  projectCell">
       <h2 class="projTitle"><a>Polymer Composite Air-to-Water Heat Exchanger</a></h2>
       <p class="projDescr"><a>Qdot Additive designed a low pressure drop air-to-water heat exchanger for HVAC applications. It is manufactured by fused filament fabrication using specially designed toolpathing and highly effective convective features. The material is a thermally conductive polycarbonate (PC) composite that was specially developed for the application. PC can withstand temperatures above 100 °C and is resistant to many caustic chemicals.</p>
-      </a> </div>
+      </a></div>
     <div class="clearfix visible-xs-block"></div>
     <div class="project whitesmoke" id="metalHX">
 	  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"> <img src="./img/high/hx_sharkfin_transparent.png" class="img-responsive" style="max-width: 80%; height:auto; display:block; margin-left:auto; margin-right:auto;"> </div>
@@ -113,10 +113,10 @@ span.onclick = function() {
 	  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6  projectCell">
         <h2 class="projTitle"><a>Thermal Test Data</a></h2>
         <p class="projDescr"><a>These heat exchangers were designed for an operating air-side pressure drop of 40 Pa and inlet temperature difference of 69.4 °C for water and air in crossflow. The data are scaled for a 12 in. x 12 in. frontal area.</a></p>
-	  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"> <img id="perf-graph" src="./img/high/Performance-transparent.png" class="img-responsive" style="max-width: 70%; height:auto; display:block; margin-left:auto; margin-right:auto;" alt="Benchmark Performance Data"> </div>
-	  <div id="myModal" class="modal" src="./img/high/Performance-wht-bkgnd.jpg">
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> <img id="perf-graph" src="./img/high/Performance-transparent.png" class="img-responsive" style="max-width: 70%; height:auto; display:block; margin-left:auto; margin-right:auto;" alt="Benchmark Performance Data"></div>
+	  <div id="myModal" class="modal">
   		<span class="close">&times;</span>
-		<img class="modal-content" id="perf-graph-wht">
+		<img class="modal-content" id="perf-graph-wht" src="./img/high/Performance-wht-bkgnd.jpg">
 		<div id="caption"></div>
 	  </div>	  
 		  
