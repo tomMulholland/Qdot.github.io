@@ -1,12 +1,12 @@
-html
+html,
 body{cursor:auto;} 
-#perf-graph {
+#perf {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
 
-#perf-graph:hover {opacity: 0.7;}
+#perf:hover {opacity: 0.7;}
 
 .container-fluid {
     height: 102%;
@@ -194,7 +194,6 @@ body{cursor:auto;}
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
 
-/* Modal Content (Image) */
 .modal-content {
     margin: auto;
     display: block;
@@ -202,7 +201,6 @@ body{cursor:auto;}
     max-width: 700px;
 }
 
-/* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
     margin: auto;
     display: block;
@@ -214,18 +212,21 @@ body{cursor:auto;}
     height: 150px;
 }
 
-/* Add Animation - Zoom in the Modal */
 .modal-content, #caption { 
+	-webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
     animation-name: zoom;
     animation-duration: 0.6s;
 }
-
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
 @keyframes zoom {
     from {transform:scale(0)} 
     to {transform:scale(1)}
 }
 
-/* The Close Button */
 .close {
     position: absolute;
     top: 15px;

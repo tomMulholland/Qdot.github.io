@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="./img/icon/logo-tab-icon-32.png"/>
 <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"/>
 <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"/>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo"/>
 <link rel="stylesheet" href="css/styles.css"/>
@@ -33,8 +34,8 @@
 var modal = document.getElementById('myModal');
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("perf-graph");
-var modalImg = document.getElementById("perf-graph-wht");
+var img = document.getElementById("perf");
+var modalImg = document.getElementById("perfwht");
 var captionText = document.getElementById("caption");
 img.onclick = function(){
     modal.style.display = "block";
@@ -50,6 +51,15 @@ span.onclick = function() {
     modal.style.display = "none";
 }
 </script>
+<script>
+	$(function() {
+		$('.pop').on('click', function() {
+			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
+			$('#imagemodal').modal('show');   
+		});		
+});
+</script>
+	
 </head>
 
 <body>
@@ -113,14 +123,30 @@ span.onclick = function() {
         <h2 class="projTitle"><a>Thermal Test Data</a></h2>
         <p class="projDescr"><a>These heat exchangers were designed for an operating air-side pressure drop of 40 Pa and inlet temperature difference of 69.4 °C for water and air in crossflow. The data are scaled for a 12 in. x 12 in. frontal area.</a></p>
 	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> 
-		<img id="perf-graph" src="./img/high/Performance-transparent.png" class="img-responsive" style="max-width: 50%; height:auto; display:block; margin-left:auto; margin-right:auto;" alt="Benchmark Performance Data">
-	    <div id="myModal" class="modal">
+	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 projectCell"> 
+		<img id="perf" src="./img/high/Performance-transparent.png" class="img-responsive" style="max-width: 50%; height:auto; display:block; margin-left:auto; margin-right:auto;" alt="Benchmark Performance Data" data-toggle="modal">
+		<div id="myModal" class="modal">
+			<h2><a>test text 3</a></h2>
   		  <span class="close">&times;</span>
-		  <img class="modal-content" id="perf-graph-wht">
+		  <img class="modal-content" id="perfwht" alt="Benchmark Performance Data">
 		  <div id="caption"></div>
 	    </div>	  
 	  </div> 
+	  <a href="#" class="pop">
+    <img src="http://upload.wikimedia.org/wikipedia/commons/2/22/Turkish_Van_Cat.jpg" style="width: 400px; height: 264px;">
+</a>
+
+<div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">              
+      <div class="modal-body">
+      	<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <img src="" class="imagepreview" style="width: 100%;" >
+      </div>
+    </div>
+  </div>
+</div>
+	  
     </div>
   <div class="row project whitesmoke" id="people">
     <div class="col-xs-12 category">
