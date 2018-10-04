@@ -28,7 +28,8 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
             item = {
                 src: linkEl.getAttribute('href'),
                 w: parseInt(size[0], 10),
-                h: parseInt(size[1], 10)
+                h: parseInt(size[1], 10),
+				title: el.getAttribute('data-title')
             };
 
 
@@ -201,3 +202,4 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
     }
 };
 
+initPhotoSwipeFromDOM(".imgDisplay");

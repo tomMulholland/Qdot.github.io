@@ -1,22 +1,43 @@
 html,
 body{cursor:auto;} 
-.my-gallery {
-  width: 100%;
-  float: left;
+
+.imgDisplay {}
+.imgDisplay figure {}
+.imgDisplay img {}
+.imgDisplay figcaption {}
+.imgDisplay figcaption{
+	display: none;
 }
-.my-gallery img {
-  width: 100%;
-  height: auto;
-}
-.my-gallery figure {
-  display: block;
-  float: left;
-  margin: 0 5px 5px 0;
-  width: 150px;
-}
-.my-gallery figcaption {
-  display: none;
-}
+
+.monoh, .monow {
+      width: 100%;
+      clear: both;
+	  display:block;
+	  margin-left:auto; 
+	  margin-right:auto;
+	  
+    }
+.monoh figure {
+      display: block;
+      height: 300px;
+      width: auto;
+	  margin-left:auto; 
+	  margin-right:auto;
+    }
+.img-title {
+        font-size: 2em;
+		line-height: 1.1em;
+    }
+	.monoh img {
+      width: auto;
+      height: 100%;
+	  margin-left:auto; 
+	  margin-right:auto;
+    }
+	 .monow img, .monod img {
+      width: 100%;
+      height: auto;
+    }
 
 .container-fluid {
     height: 102%;
@@ -34,15 +55,7 @@ body{cursor:auto;}
   margin-right:0;
   margin-left:0;
 }
-.row.display-flex {
-  display: flex;
-  flex-wrap: wrap;
-}
-.row.display-flex > [class*='col-'] {
-  display: flex;
-  flex-direction: column;
-  flex-grow:1;
-}
+
 .titleRow {
   height: 95vh;
   background-color: #400603;
@@ -139,13 +152,7 @@ body{cursor:auto;}
   margin-right: 0px;
   vertical-align:top;
 }
-.projectCell {
-  background-color: #04305A;
-  padding: 60px;
-  margin-left: 0px;
-  margin-right: 0px;
-  vertical-align:top;
-}
+
 .imageCell {
   background-color: #04305A;
   padding: 60px;
@@ -174,13 +181,7 @@ body{cursor:auto;}
   color: #F5F5F5;
   text-decoration: none;
 }
-.steelHXpic{
-	src: url('/img/high/hx_sharkfin_transparent.png');;
-}
 
-.poster {
-  color: #333;
-}
 .footer {
   background-color: #04305A;
   padding: 60px;
@@ -227,9 +228,6 @@ body{cursor:auto;}
     font-size: 26px;
     padding: 30px 0;
   }
-  .resume-title > a {
-    display: none;
-  }
   .projDescr > a{
 	font-size: 1em;
 	}
@@ -263,12 +261,6 @@ body{cursor:auto;}
 	}
   .me {
     font-size: 3em;
-  }
-  .presentationContainer {
-    padding: 30px;
-  }
-  .resumeContainer {
-    padding: 20px;
   }
 
 }

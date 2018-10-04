@@ -8,15 +8,23 @@
 <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"/>
 <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"/>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo"/>
-<link rel="stylesheet" href="css/styles.css"/>
 
 <!-- Photoswipe -->
-<link rel="stylesheet" href="photoswipe/photoswipe.css"> 
+<!--link rel="stylesheet" href="photoswipe/photoswipe.css"> 
 <link rel="stylesheet" href="photoswipe/default-skin/default-skin.css"> 
 <script src="photoswipe/photoswipe.min.js"></script> 
 <script src="photoswipe/photoswipe-ui-default.min.js"></script> 
-<script src="initPhotoSwipeFromDOM.js"></script>
-<script type="text/javascript">initPhotoSwipeFromDOM('.my-gallery');</script>
+<script src="initPhotoSwipeFromDOM.js"></script-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css">
+<!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.svg"-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js"></script>
+<script src="js/initPhotoSwipeFromDOM.js"></script>
+
+<!-- local stylesheet-->
+<link rel="stylesheet" href="css/styles.css"/>
 	
 <!-- Add scripts for reCaptcha email protection -->
 <script src="https://www.google.com/recaptcha/api.js"></script>
@@ -85,32 +93,42 @@
       <h1 class="categoryTitle">Projects</h1>
     </div>
   </div>
-  <div class="row display-flex project whitesmoke">
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projectCell" id="polyHXpic"> <img src="./img/high/polyHX-transparent.png" class="img-responsive" style="max-width: 80%; height:auto; display:block; margin-left:auto; margin-right:auto;"> </div>
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6  projectCell">
+  <div class="row project whitesmoke">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projectContainer" id="polyHXpic"> <img src="./img/high/polyHX-transparent.png" class="img-responsive" style="max-width: 80%; height:auto; display:block; margin-left:auto; margin-right:auto;"> </div>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6  projectContainer">
       <h2 class="projTitle"><a>Polymer Composite Air-to-Water Heat Exchanger</a></h2>
       <p class="projDescr"><a>Qdot Additive designed a low pressure drop air-to-water heat exchanger for HVAC applications. It is manufactured by fused filament fabrication using specially designed toolpathing and highly effective convective features. The material is a thermally conductive polycarbonate (PC) composite that was specially developed for the application. PC can withstand temperatures above 100 °C and is resistant to many caustic chemicals.</a></p>
       </div>
     <div class="clearfix visible-xs-block"></div>
-	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"> <img src="./img/high/hx_sharkfin_transparent.png" class="img-responsive" style="max-width: 80%; height:auto; display:block; margin-left:auto; margin-right:auto;"> </div>
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6  projectCell">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"> 
+		<div class="imgDisplay monoh" itemscope="" itemtype="http://schema.org/ImageGallery">
+		  <figure itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">
+		  <a href="./img/high/hx_sharkfin_transparent.png" itemprop="contentUrl" data-size="1590x1620">
+		  <img src="./img/low/hx_sharkfin_transparent_low.png" itemprop="thumbnail" alt="Benchmark Performance Data"/></a>
+		  <figcaption itemprop="caption img-description"><div class="img-title">The 3D printed heat exchangers outperform conventional models.</div></figcaption>
+		  </figure>
+	     </div>
+		<!--img src="./img/high/hx_sharkfin_transparent.png" class="img-responsive" style="max-width: 80%; height:auto; display:block; margin-left:auto; margin-right:auto;"--> 
+	</div>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6  projectContainer">
         <h2 class="projTitle"><a>Stainless Steel Air-to-Water Heat Exchanger</a></h2>
         <p class="projDescr"><a>Metal additive manufacturing is the answer for high effectiveness, compact heat exchangers in demanding environments with high pressures, high temperatures, or certain corrosive environments. Qdot Additive designed a low pressure drop air-to-water heat exchanger for HVAC applications as a proof of concept. It is manufactured by the direct metal laser sintering (DMLS) process using stainless steel 316L.</a></p>
       </div>
       <div class="clearfix visible-xs-block"></div>
-	  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projectCell" style="width: 70%;">
+	  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projectContainer">
         <h2 class="projTitle"><a>Thermal Test Data</a></h2>
         <p class="projDescr"><a>These heat exchangers were designed for an operating air-side pressure drop of 40 Pa and inlet temperature difference of 69.4 °C for water and air in crossflow. The data are scaled for a 12 in. x 12 in. frontal area.</a></p>
 	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 projectCell"> 
-		<img id="perf" src="./img/high/Performance-transparent.png" class="img-responsive" style="max-width: 50%; height:auto; display:block; margin-left:auto; margin-right:auto;" alt="Benchmark Performance Data" data-toggle="modal">
-		<div id="myModal" class="modal">
-			<h2><a>test text 3</a></h2>
-  		  <span class="close">&times;</span>
-		  <img class="modal-content" id="perfwht" alt="Benchmark Performance Data">
-		  <div id="caption"></div>
-	    </div>	  
-	  </div> 
+	  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projectContainer"> 
+		  <div class="imgDisplay monoh" itemscope="" itemtype="http://schema.org/ImageGallery">
+		  <figure itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">
+		  <a href="./img/high/Performance-transparent.png" itemprop="contentUrl" data-size="1418x926">
+		  <img src="./img/low/Performance-transparent-low.png" itemprop="thumbnail" alt="Benchmark Performance Data"/></a>
+		  <figcaption itemprop="caption img-description"><div class="img-title">The 3D printed heat exchangers outperform conventional models.</div></figcaption>
+		  </figure>
+	     </div>
+	  </div>
+	  <div class="clearfix visible-xs-block"></div>
 	</div>
   <div class="row project whitesmoke" id="people">
     <div class="col-xs-12 category">
@@ -136,6 +154,25 @@
       </div>
     </div>
   </div>
+  <div class="row project whitesmoke">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 projectContainer">
+		<h2>First gallery:</h2>
+
+		  <div class="imgDisplay monoh" style="height: 150px;" itemscope="" itemtype="http://schema.org/ImageGallery">
+		  <figure itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">
+		  <a href="https://farm3.staticflickr.com/2567/5697107145_a4c2eaa0cd_o.jpg" itemprop="contentUrl" data-size="2560x1580">
+		  <img src="https://farm3.staticflickr.com/2567/5697107145_3c27ff3cd1_m.jpg" itemprop="thumbnail" title="Test title" alt="Image 1 (shown)" /></a>
+		  <figcaption itemprop="caption description">Image 1 (shown)</figcaption>
+		  </figure>
+		  <figure style="position: absolute; visibility: hidden;" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">
+		  <a href="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg" itemprop="contentUrl" data-size="2560x1339">
+		  <img style="max-width: 10px;" src="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_m.jpg" itemprop="thumbnail" title="Title is different from caption" alt="Different alt text" /></a>
+		  <figcaption itemprop="caption description">Image 4 position: absolute; visibility: hidden;</figcaption>
+		  </figure>
+		  </div>
+
+	</div>
+  </div>
   <div class="row project whitesmoke" id="contact">
     <div class="col-xs-12 category">
       <h1 class="categoryTitle">Contact</h1>
@@ -159,125 +196,80 @@
       <p>This site is protected by reCAPTCHA and is subject to the <a href="https://www.google.com/intl/en/policies/privacy/" target="_blank">Google Privacy Policy</a> and <a href="https://www.google.com/intl/en/policies/terms/" target="_blank">Terms of Use.</a> We use this to avoid spam bots.</p>
     </div>
   </div>
-<h2>First gallery:</h2>
-
-  <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <a href="https://farm3.staticflickr.com/2567/5697107145_a4c2eaa0cd_o.jpg" itemprop="contentUrl" data-size="1024x1024">
-          <img src="https://farm3.staticflickr.com/2567/5697107145_3c27ff3cd1_m.jpg" itemprop="thumbnail" alt="Image description" />
-      </a>
-                                          <figcaption itemprop="caption description">Image caption  1</figcaption>
-                                          
-    </figure>
-
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <a href="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg" itemprop="contentUrl" data-size="964x1024">
-          <img src="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_m.jpg" itemprop="thumbnail" alt="Image description" />
-      </a>
-      <figcaption itemprop="caption description">Image caption 2</figcaption>
-    </figure>
-
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <a href="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_b.jpg" itemprop="contentUrl" data-size="1024x683">
-          <img src="https://farm7.staticflickr.com/6175/6176698785_7dee72237e_m.jpg" itemprop="thumbnail" alt="Image description" />
-      </a>
-      <figcaption itemprop="caption description">Image caption 3</figcaption>
-    </figure>
-
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <a href="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_b.jpg" itemprop="contentUrl" data-size="1024x768">
-          <img src="https://farm6.staticflickr.com/5023/5578283926_822e5e5791_m.jpg" itemprop="thumbnail" alt="Image description" />
-      </a>
-      <figcaption itemprop="caption description">Image caption 4</figcaption>
-    </figure>
-
-
-  </div>
-
-<h2>Second gallery:</h2>
-
-  <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-
-  
-
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <a href="./img/high/Performance-wht-bkgnd.jpg" itemprop="contentUrl" data-size="964x1024">
-          <img src="./img/high/Performance-transparent.png" itemprop="thumbnail" alt="Performance data" />
-      </a>
-      <figcaption itemprop="caption description">Performance data for Qdot models vs. conventional</figcaption>
-    </figure>
-
-    </div>
 
 
 
-<!-- Root element of PhotoSwipe. Must have class pswp. -->
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+<!-- Load pswp if specified -->
+  <!-- Actual code to make galleries happen -->
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
-    <!-- Background of PhotoSwipe. 
-         It's a separate element, as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
+      <!-- Background of PhotoSwipe. 
+           It's a separate element as animating opacity is faster than rgba(). -->
+      <div class="pswp__bg"></div>
 
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
+      <!-- Slides wrapper with overflow:hidden. -->
+      <div class="pswp__scroll-wrap">
 
-        <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
-        <!-- don't modify these 3 pswp__item elements, data is added later on. -->
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-        </div>
+          <!-- Container that holds slides. 
+              PhotoSwipe keeps only 3 of them in the DOM to save memory.
+              Don't modify these 3 pswp__item elements, data is added later on. -->
+          <div class="pswp__container">
+              <div class="pswp__item"></div>
+              <div class="pswp__item"></div>
+              <div class="pswp__item"></div>
+          </div>
 
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-        <div class="pswp__ui pswp__ui--hidden">
+          <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+          <div class="pswp__ui pswp__ui--hidden">
 
-            <div class="pswp__top-bar">
+              <div class="pswp__top-bar">
 
-                <!--  Controls are self-explanatory. Order can be changed. -->
+                  <!--  Controls are self-explanatory. Order can be changed. -->
 
-                <div class="pswp__counter"></div>
+                  <div class="pswp__counter"></div>
 
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                  <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
 
-                <button class="pswp__button pswp__button--share" title="Share"></button>
+                  <button class="pswp__button pswp__button--share" title="Share"></button>
 
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                  <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
 
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                  <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
 
-                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader--active when preloader is running -->
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                      <div class="pswp__preloader__cut">
-                        <div class="pswp__preloader__donut"></div>
+                  <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                  <!-- element will get class pswp__preloader--active when preloader is running -->
+                  <div class="pswp__preloader">
+                      <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                          <div class="pswp__preloader__donut"></div>
+                        </div>
                       </div>
-                    </div>
-                </div>
-            </div>
+                  </div>
+              </div>
 
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div> 
-            </div>
+              <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                  <div class="pswp__share-tooltip"></div> 
+              </div>
 
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-            </button>
+              <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+              </button>
 
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-            </button>
+              <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+              </button>
 
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
+              <div class="pswp__caption">
+                  <div class="pswp__caption__center"></div>
+              </div>
 
           </div>
 
-        </div>
+      </div>
 
-</div>
-	
+  </div>
+
+<script src="js/initPhotoSwipeFromDOM.js"></script>
+
 </div>
 </body>
 </html>
