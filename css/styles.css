@@ -18,27 +18,34 @@ body{cursor:auto;}
 	  
     }
 .monoh figure {
-      display: block;
+      display: inline-block;
       height: 300px;
       width: auto;
 	  margin-left:auto; 
 	  margin-right:auto;
     }
 .img-title {
-        font-size: 2em;
+		font-size: 1.5em;
 		line-height: 1.1em;
     }
-	.monoh img {
-      width: auto;
-      height: 100%;
+.monoh img {
+	  width: auto;
+	  height: 100%;
 	  margin-left:auto; 
 	  margin-right:auto;
-    }
-	 .monow img, .monod img {
-      width: 100%;
-      height: auto;
-    }
-
+	}
+.monow img, .monod img {
+	width: 100%;
+	height: auto;
+	}
+.ps-container{
+	  display: block;
+      height: 300px;
+      width: auto;
+	  margin-left:auto; 
+	  margin-right:auto;
+	text-align:center;
+}
 .container-fluid {
     height: 102%;
     position: relative;
