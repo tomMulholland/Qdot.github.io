@@ -20,10 +20,10 @@
 
 <!-- local stylesheet-->
 <link rel="stylesheet" href="css/styles.css"/>
-	
+
 <!-- Add scripts for reCaptcha email protection -->
 <script src="https://www.google.com/recaptcha/api.js"></script>
-<script src="displayEmail.js"></script>
+<script src="js/displayEmail.js"></script>
 <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -48,8 +48,8 @@
       <div class="titleContent"> 
         <!--h1 class="me">Qdot Additive</h1--> 
         <!--img src="./img/high/logo-name-black-color-transp-bgnd.png" class="img-responsive"
-			 style="width: 80%; max-width: 1200px; display:block; margin-left:auto; margin-right:auto;"-->
-		<img src="./img/medium/logo-and-name-med.png" class="img-responsive"
+			 style="width: 80%; max-width: 1200px; display:block; margin-left:auto; margin-right:auto;"--> 
+        <img src="./img/medium/logo-and-name-med.png" class="img-responsive"
 			 style="width: 80%; max-width: 1200px; display:block; margin-left:auto; margin-right:auto;">
         <h4>Thermofluid Simulation | Thermomechanical Analysis | Additive Manufacturing</h4>
       </div>
@@ -57,28 +57,29 @@
     </div>
   </div>
   <div class="row toc-row">
-    <div class="col-xs-3 toc"> <a href="#about">
-      <h2 class="toc-title">About</h2>
+    <div class="col-xs-3 toc"> <a href="#am">
+      <h2 class="toc-title">Background</h2>
       </a> </div>
     <div class="col-xs-3 toc"> <a href="#projects">
       <h2 class="toc-title">Projects</h2>
       </a> </div>
-    <div class="col-xs-3 toc"> <a href="#people">
-      <h2 class="toc-title">People</h2>
+    <div class="col-xs-3 toc"> <a href="#about">
+      <h2 class="toc-title">About Us</h2>
       </a> </div>
     <div class="col-xs-3 toc"> <a href="#contact">
       <h2 class="toc-title">Contact</h2>
       </a> </div>
   </div>
-  <div class="row project whitesmoke" id="about">
+  <div class="row project whitesmoke" id="am">
     <div class="col-xs-12 category">
-      <h1 class="categoryTitle">Background</h1>
+      <h1 class="categoryTitle">Additive Manufacturing for Heat Transfer</h1>
     </div>
     <div class="col-xs-12 project whitesmoke">
       <div class="projectContainer" style="width: 70%;">
-        <h2 class="projTitle"><a>Thermal Engineering Design for Additive Manufacturing</a></h2>
-        <p class="projDescr"><a>Qdot Additive LLC uses advanced simulation tools and years of know-how in additive manufacturing to design innovative structures for heat transfer applications, from HVAC&amp;R to high temperature recuperators and power generation applications. </a></p>
-        <p class="projDescr"><a>Qdot is a spin-off from a University of Wisconsin project funded by the Department of Energy which focused on thermally conductive polymer composite heat exchangers for air-to-water applications found in industrial HVAC&amp;R. Building on this expertise, Qdot leverages its experience in thermal design and simulation, along with design for additive manufacturing, to create innovative, manufacturable heat transfer designs. </a></p>
+        <h2 class="projTitle"><a>Improved Heat Transfer with Innovative Designs</a></h2>
+        <p class="projDescr"><a>Traditional compact heat exchangers use relatively simple, essentially two-dimensional geometries that are sub-optimal for a given volume. Corrugated fins cause the buildup of boundary layers, which lead to a high pressure drop and poor convective heat transfer.</a></p>
+        <p class="projDescr"><a>Additive manufacturing allows the designer to place material economically, only where it is needed, which leads to better heat transfer performance on a mass and volume basis. Advanced fin structures achieve high convective heat transfer and break up the boundary layer, reducing the pressure drop. </a></p>
+        <p class="projDescr"><a>We can design heat exchangers specifically for your application, with the freedom to specify the inlet/outlet location, the overall shape and volume, the fluid velocities, and the effectiveness, all based on your requirements. We use our algorithms and simulation tools to optimize the design based on all the constraints.</a></p>
       </div>
     </div>
   </div>
@@ -88,72 +89,97 @@
     </div>
   </div>
   <div class="row project whitesmoke">
-    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 projectContainer" id="polyHXpic"> 
-		<div class="ps-container imgDisplay monoh" itemscope="" itemtype="http://schema.org/ImageGallery">
-		  <figure itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">
-		  <a href="./img/high/polyHX-transparent.png" itemprop="contentUrl" data-size="2052x1956">
-		  <img src="./img/low/polyHX-transparent-low.png" itemprop="thumbnail" alt="PC-Al FFF Tapered Pin HX"/></a>
-		  <figcaption itemprop="caption img-description"><div class="img-title">Polycarbonate-aluminum composite tapered pin heat exchanger.</div></figcaption>
-		  </figure>
-	   </div>
-	</div>
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 projectContainer" id="polyHXpic">
+      <div class="ps-container imgDisplay monoh" itemscope="" itemtype="http://schema.org/ImageGallery">
+        <figure itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"> <a href="./img/high/polyHX-transparent.png" itemprop="contentUrl" data-size="2052x1956"> <img src="./img/low/polyHX-transparent-low.png" itemprop="thumbnail" alt="PC-Al FFF Tapered Pin HX"/></a>
+          <figcaption itemprop="caption img-description">
+            <div class="img-title">Polycarbonate-aluminum composite tapered pin heat exchanger</div>
+          </figcaption>
+        </figure>
+        <figure style="position: absolute; visibility: hidden;" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"> <a href="./img/high/polyHX-ellipse-high.png" itemprop="contentUrl" data-size="2000x1746"> <img style="max-width: 10px;" src="./img/low/polyHX-ellipse-low.png" itemprop="thumbnail" alt="PC-Al FFF Tapered Ellipse HX" /></a>
+          <figcaption itemprop="caption img-description">
+            <div class="img-title">Polycarbonate-aluminum composite tapered ellipse heat exchanger</div>
+          </figcaption>
+        </figure>
+        <figure style="position: absolute; visibility: hidden;" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"> <a href="./img/high/polyHX-print-high.jpg" itemprop="contentUrl" data-size="3000x2000"> <img style="max-width: 10px;" src="./img/low/polyHX-print-low.jpg" itemprop="thumbnail" alt="PC-Al FFF Tapered Ellipse HX" /></a>
+          <figcaption itemprop="caption img-description">
+            <div class="img-title">Fused filament fabrication with polycarbonate-aluminum composite</div>
+          </figcaption>
+        </figure>
+        <figure style="position: absolute; visibility: hidden;" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"> <a href="./img/high/PU-HX-high.png" itemprop="contentUrl" data-size="3102x2256"> <img style="max-width: 10px;" src="./img/low/PU-HX-low.png" itemprop="thumbnail" alt="PU Vat Photopolymerization HX" /></a>
+          <figcaption itemprop="caption img-description">
+            <div class="img-title">Polyurethane Vat Photopolymerization HX</div>
+          </figcaption>
+        </figure>
+      </div>
+      <p style="text-align:center; margin:0px; padding:0px;"><a style="color:#147AD9; text-decoration: none;">Click above to see more</a></p>
+    </div>
     <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8  projectContainer">
       <h2 class="projTitle"><a>Polymer Composite Air-to-Water Heat Exchanger</a></h2>
       <p class="projDescr"><a>Qdot Additive designed a low pressure drop air-to-water heat exchanger for HVAC applications. It is manufactured by fused filament fabrication using specially designed toolpathing and highly effective convective features. The material is a thermally conductive polycarbonate (PC) composite that was specially developed for the application. PC can withstand temperatures above 100 °C and is resistant to many caustic chemicals.</a></p>
-      </div>
+    </div>
     <div class="clearfix visible-xs-block"></div>
-	<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 projectContainer"> 
-		<div class="ps-container imgDisplay monoh" itemscope="" itemtype="http://schema.org/ImageGallery">
-		  <figure itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">
-		  <a href="./img/high/hx_sharkfin_transparent.png" itemprop="contentUrl" data-size="1590x1620">
-		  <img src="./img/low/hx_sharkfin_transparent_low.png" itemprop="thumbnail" alt="SS 316L DMLS Tapered Ellipse HX"/></a>
-		  <figcaption itemprop="caption img-description"><div class="img-title">Stainless Steel 316L tapered ellipse heat exchanger.</div></figcaption>
-		  </figure>
-		  <figure style="position: absolute; visibility: hidden;" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">
-		  <a href="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg" itemprop="contentUrl" data-size="2560x1339">
-		  <img style="max-width: 10px;" src="https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_m.jpg" itemprop="thumbnail" title="Title is different from caption" alt="Different alt text" /></a>
-		  <figcaption itemprop="caption description">Image 4 position: absolute; visibility: hidden;</figcaption>
-		  </figure>
-	   </div>
-	</div>
-    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 projectContainer">
-        <h2 class="projTitle"><a>Stainless Steel Air-to-Water Heat Exchanger</a></h2>
-        <p class="projDescr"><a>Metal additive manufacturing is the answer for high effectiveness, compact heat exchangers in demanding environments with high pressures, high temperatures, or certain corrosive environments. Qdot Additive designed a low pressure drop air-to-water heat exchanger for HVAC applications as a proof of concept. It is manufactured by the direct metal laser sintering (DMLS) process using stainless steel 316L.</a></p>
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 projectContainer">
+      <div class="ps-container imgDisplay monoh" itemscope="" itemtype="http://schema.org/ImageGallery">
+        <figure itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"> <a href="./img/high/hx_sharkfin_transparent.png" itemprop="contentUrl" data-size="1590x1620"> <img src="./img/low/hx_sharkfin_transparent_low.png" itemprop="thumbnail" alt="SS 316L DMLS Tapered Ellipse HX"/></a>
+          <figcaption itemprop="caption img-description">
+            <div class="img-title">Stainless Steel 316L tapered ellipse heat exchanger</div>
+          </figcaption>
+        </figure>
+        <figure style="position: absolute; visibility: hidden;" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"> <a href="./img/high/HX-tap-fin-front-high.png" itemprop="contentUrl" data-size="2010x1812"> <img style="max-width: 10px;" src="./img/low/HX-tap-fin-front-low.png" itemprop="thumbnail" alt="SS 316L DMLS Tapered Ellipse HX" /></a>
+          <figcaption itemprop="caption img-description">
+            <div class="img-title">Stainless Steel 316L tapered ellipse heat exchanger</div>
+          </figcaption>
+        </figure>
       </div>
-      <div class="clearfix visible-xs-block"></div>
-	  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projectContainer">
-        <h2 class="projTitle"><a>Thermal Test Data</a></h2>
-        <p class="projDescr"><a>These heat exchangers were designed for an operating air-side pressure drop of 40 Pa and inlet temperature difference of 69.4 °C for water and air in crossflow. The data are scaled for a 12 in. x 12 in. frontal area.</a></p>
-	  </div>
-	  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projectContainer"> 
-		  <div class="imgDisplay monoh" itemscope="" itemtype="http://schema.org/ImageGallery">
-		  <figure itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">
-		  <a href="./img/high/Performance-transparent.png" itemprop="contentUrl" data-size="1418x926">
-		  <img src="./img/low/Performance-transparent-low.png" itemprop="thumbnail" alt="Benchmark Performance Data"/></a>
-		  <figcaption itemprop="caption img-description"><div class="img-title">The 3D printed heat exchangers outperform conventional models.</div></figcaption>
-		  </figure>
-	     </div>
-	  </div>
-	  <div class="clearfix visible-xs-block"></div>
-	</div>
+      <p style="text-align:center; margin:0px; padding:0px;"><a style="color:#147AD9; text-decoration: none;">Click above to see more</a></p>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 projectContainer">
+      <h2 class="projTitle"><a>Stainless Steel Air-to-Water Heat Exchanger</a></h2>
+      <p class="projDescr"><a>Metal additive manufacturing is the answer for high effectiveness, compact heat exchangers in demanding environments with high pressures, high temperatures, or certain corrosive environments. Qdot Additive designed a low pressure drop air-to-water heat exchanger for HVAC applications as a proof of concept. It is manufactured by the direct metal laser sintering (DMLS) process using stainless steel 316L.</a></p>
+    </div>
+    <div class="clearfix visible-xs-block"></div>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projectContainer">
+      <h2 class="projTitle"><a>Thermal Test Data</a></h2>
+      <p class="projDescr"><a>These heat exchangers were designed for an operating air-side pressure drop of 40 Pa and inlet temperature difference of 69.4 °C for water and air in crossflow. The data are scaled for a 12 in. x 12 in. frontal area.</a></p>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 projectContainer">
+      <div class="imgDisplay monoh" itemscope="" itemtype="http://schema.org/ImageGallery">
+        <figure itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"> <a href="./img/high/Performance-transparent.png" itemprop="contentUrl" data-size="1418x926"> <img src="./img/low/Performance-transparent-low.png" itemprop="thumbnail" alt="Benchmark Performance Data"/></a>
+          <figcaption itemprop="caption img-description">
+            <div class="img-title">The 3D printed heat exchangers outperform conventional models.</div>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="clearfix visible-xs-block"></div>
+  </div>
+  <div class="row project whitesmoke" id="about">
+    <div class="col-xs-12 category">
+      <h1 class="categoryTitle">About Us</h1>
+    </div>
+    <div class="col-xs-12 project whitesmoke">
+      <div class="projectContainer" style="width: 70%;">
+        <h2 class="projTitle"><a>Thermal Engineering Design for Additive Manufacturing</a></h2>
+        <p class="projDescr"><a>Qdot Additive LLC uses advanced simulation tools and years of know-how in additive manufacturing to design innovative structures for heat transfer applications, from HVAC&amp;R to high temperature recuperators and power generation applications. </a></p>
+        <p class="projDescr"><a>Qdot is a spin-off from a University of Wisconsin project funded by the Department of Energy which focused on thermally conductive polymer composite heat exchangers for air-to-water applications found in industrial HVAC&amp;R. Building on this expertise, Qdot leverages its experience in thermal design and simulation, along with design for additive manufacturing, to create innovative, manufacturable heat transfer designs. </a></p>
+      </div>
+    </div>
+  </div>
   <div class="row project whitesmoke" id="people">
     <div class="col-xs-12 category">
       <h1 class="categoryTitle">People</h1>
     </div>
   </div>
   <div class="row project whitesmoke">
-    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 projectContainer" style="padding:20px;">
-      <img src="./img/high/Mulholland.jpg" style="border:3px solid black; width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;">
-    </div>
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 projectContainer" style="padding:20px;"> <img src="./img/high/Mulholland.jpg" style="border:3px solid black; width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;"> </div>
     <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 projectContainer">
       <h2 class="projTitle"><a>Co-Founder</a></h2>
       <p class="projDescr"><a>Dr. Tom Mulholland completed completed his PhD work at the University of Wisconsin on the topic of additive manufacturing. He studied fused filament fabrication with thermally conductive polymer composites for heat transfer applications. He is the lead for materials and operations. He previously worked in the Plastic and Rubber Research and Training Institute in Medellín, Colombia doing applied research and consulting for the plastics industry.</a></p>
     </div>
     <div class="clearfix visible-xs-block"></div>
     <div class="project whitesmoke">
-      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 projectContainer" style="padding:20px;">
-      <img src="./img/high/Boxleitner.jpg" style="border:3px solid black; width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;">
-    </div>
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 projectContainer" style="padding:20px;"> <img src="./img/high/Boxleitner.jpg" style="border:3px solid black; width:50%; height:auto; display:block; margin-left:auto; margin-right:auto;"> </div>
       <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 projectContainer">
         <h2 class="projTitle"><a>Co-Founder</a></h2>
         <p class="projDescr"><a>Jake Boxleitner is the modeling and simulation lead and will complete his masters degree this year at the University of Wisconsin in the area of additive manufacturing for heat transfer devices. He has expertise in computational fluid dynamics and high-performance computing for design optimization as well as designing for the constraints of additive manufacturing techniques.</a></p>
@@ -167,7 +193,7 @@
   </div>
   <div class="row project whitesmoke">
     <div class="col-xs-12 footer">
-		<p class="projDescr"><a>Get in touch with us to learn more or to discuss your advanced heat transfer project.</a></p>
+      <p class="projDescr"><a>Get in touch with us to learn more or to discuss your advanced heat transfer project.</a></p>
       <button
 			class="btn-lg btn-primary g-recaptcha"
 			style="background-color: #147AD9; color: #F5F5F5;"
@@ -184,78 +210,62 @@
       <p>This site is protected by reCAPTCHA and is subject to the <a href="https://www.google.com/intl/en/policies/privacy/" target="_blank">Google Privacy Policy</a> and <a href="https://www.google.com/intl/en/policies/terms/" target="_blank">Terms of Use.</a> We use this to avoid spam bots.</p>
     </div>
   </div>
-
-<!-- Load pswp if specified -->
-  <!-- Actual code to make galleries happen -->
+  
+  <!-- Load pswp if specified --> 
+  <!-- Actual code to make galleries happen --> 
   <!-- Root element of PhotoSwipe. Must have class pswp. -->
-  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-      <!-- Background of PhotoSwipe. 
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true"> 
+    
+    <!-- Background of PhotoSwipe. 
            It's a separate element as animating opacity is faster than rgba(). -->
-      <div class="pswp__bg"></div>
-
-      <!-- Slides wrapper with overflow:hidden. -->
-      <div class="pswp__scroll-wrap">
-
-          <!-- Container that holds slides. 
+    <div class="pswp__bg"></div>
+    
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap"> 
+      
+      <!-- Container that holds slides. 
               PhotoSwipe keeps only 3 of them in the DOM to save memory.
               Don't modify these 3 pswp__item elements, data is added later on. -->
-          <div class="pswp__container">
-              <div class="pswp__item"></div>
-              <div class="pswp__item"></div>
-              <div class="pswp__item"></div>
-          </div>
-
-          <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-          <div class="pswp__ui pswp__ui--hidden">
-
-              <div class="pswp__top-bar">
-
-                  <!--  Controls are self-explanatory. Order can be changed. -->
-
-                  <div class="pswp__counter"></div>
-
-                  <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-                  <button class="pswp__button pswp__button--share" title="Share"></button>
-
-                  <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-                  <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-                  <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                  <!-- element will get class pswp__preloader--active when preloader is running -->
-                  <div class="pswp__preloader">
-                      <div class="pswp__preloader__icn">
-                        <div class="pswp__preloader__cut">
-                          <div class="pswp__preloader__donut"></div>
-                        </div>
-                      </div>
-                  </div>
-              </div>
-
-              <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                  <div class="pswp__share-tooltip"></div> 
-              </div>
-
-              <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-              </button>
-
-              <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-              </button>
-
-              <div class="pswp__caption">
-                  <div class="pswp__caption__center"></div>
-              </div>
-
-          </div>
-
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
       </div>
-
+      
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+        <div class="pswp__top-bar"> 
+          
+          <!--  Controls are self-explanatory. Order can be changed. -->
+          
+          <div class="pswp__counter"></div>
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+          <button class="pswp__button pswp__button--share" title="Share"></button>
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+          
+          <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR --> 
+          <!-- element will get class pswp__preloader--active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"> </button>
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"> </button>
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+      </div>
+    </div>
   </div>
-
-<script src="js/initPhotoSwipeFromDOM.js"></script>
-
+  <script src="js/initPhotoSwipeFromDOM.js"></script> 
 </div>
 </body>
 </html>
