@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /img/low
+Disallow: /img/med
+Disallow: /js
+Sitemap: https://qdotadditive.com/sitemap.xml
