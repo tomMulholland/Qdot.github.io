@@ -1,7 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
-  <url>
-    <loc>https://qdotadditive.com</loc>
-    <lastmod>2018-06-04</lastmod>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+<loc>https://qdotadditive.com/</loc>
+<image:image><image:loc>https://qdotadditive.com/img/high/Boxleitner.jpg</image:loc></image:image>
+<image:image><image:loc>https://qdotadditive.com/img/high/HX-tap-fin-front-high.png</image:loc></image:image>
+<image:image><image:loc>https://qdotadditive.com/img/high/hx_sharkfin_transparent.png</image:loc></image:image>
+<image:image><image:loc>https://qdotadditive.com/img/high/logo-name-black-color-transp-bgnd.png</image:loc></image:image>
+<image:image><image:loc>https://qdotadditive.com/img/high/Mulholland.jpg</image:loc></image:image>
+<image:image><image:loc>https://qdotadditive.com/img/high/Performance-transparent.png</image:loc></image:image>
+<image:image><image:loc>https://qdotadditive.com/img/high/Performance-wht.png</image:loc></image:image>
+<image:image><image:loc>https://qdotadditive.com/img/high/polyHX-blue-bkgnd.jpg</image:loc></image:image>
+<image:image><image:loc>https://qdotadditive.com/img/high/polyHX-ellipse-high.png</image:loc></image:image>
+<image:image><image:loc>https://qdotadditive.com/img/high/polyHX-print-high.png</image:loc></image:image>
+<image:image><image:loc>https://qdotadditive.com/img/high/polyHX-transparent-high.png</image:loc></image:image>
+<image:image><image:loc>https://qdotadditive.com/img/high/PU-HX-high.png</image:loc></image:image>
+<image:image><image:loc>https://qdotadditive.com/img/med/logo-and-name-med.png</image:loc></image:image>
+<image:image><image:loc>https://qdotadditive.com/img/icon/logo-tab-icon-32.png</image:loc></image:image>
+<lastmod>2018-10-08T16:24:49+00:00</lastmod>
+</url>
 </urlset>
+
+
+
+<!--
+img\med\HX-tap-fin-front-med.png
+img\med\polyHX-ellipse-med.png
+img\med\polyHX-print-med.png
+img\med\PU-HX-med.png
+img\icon\logo-tab-icon-16.png
+img\icon\logo-tab-icon.png
+img\low\HX-tap-fin-front-low.png
+img\low\hx_sharkfin_transparent_low.png
+img\low\logo-and-name-low.png
+img\low\Performance-transparent-low.png
+img\low\polyHX-ellipse-low.png
+img\low\polyHX-print-low.png
+img\low\polyHX-transparent-low.png
+img\low\PU-HX-low.png
+-->
